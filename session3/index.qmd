@@ -1,0 +1,47 @@
+---
+title: "Introduction to Bioinformatics"
+subtitle: "Biomedical Research"
+format: revealjs
+---
+
+# Overview and Agenda {visibility="hidden"}
+
+## [Series](../){target="_blank"} Overview
+
+- Five 1 hour sessions
+  - Very high level - just meant to organize concepts
+- Part 1 - Biology "down to the cell"
+- Part 2 - -omics, Molecular / Structural biology
+  - 2a - Genomics / DNA and Transcriptomics / RNA
+  - 2b - Proteomics, Metabolomics, and Variants
+  - 2c - Regulation, RNAi, and Epigenetics
+- <span style="color: red;">Part 3 - Biomedical Research</span>
+
+## Agenda
+
+* Drug Discovery Process
+* Disease and Epidemiology
+* Target ID and Validation
+* In-vitro and In-vivo Studies
+* Therapeutics Development
+* Translational and Clinical Studies
+
+# Biomedical Research
+
+## Drug Discovery and Development
+
+## Disease and Epidemiology
+
+## Target ID and Validation
+
+## In-vitro and In-vivo Studies
+
+## Therapeutics Development
+
+## Translational and Clinical Studies
+
+# Series End {visibility="hidden"}
+
+## Thank You!
+
+

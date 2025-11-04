@@ -1,0 +1,86 @@
+---
+title: "Introduction to Bioinformatics"
+subtitle: "Genomics / DNA and Transcriptomics / RNA"
+format: revealjs
+---
+
+# Overview and Agenda {visibility="hidden"}
+
+## [Series](../){target="_blank"} Overview
+
+- Five 1 hour sessions
+  - Very high level - just meant to organize concepts
+- Part 1 - Biology "down to the cell"
+- Part 2 - -omics, Molecular / Structural biology
+  - <span style="color: red;">2a - Genomics / DNA and Transcriptomics / RNA</span>
+  - 2b - Proteomics, Metabolomics, and Variants
+  - 2c - Regulation, RNAi, and Epigenetics
+- Part 3 - Biomedical Research
+
+## Agenda {.smaller}
+
+- Central Dogma
+  - Transcription / Translation
+  - Canonical Gene Model
+- Genomics / DNA
+  - Sequences, Assemblies, Features and Feature Sets
+  - Databases / File Formats
+  - Bioinformatics Algorithms
+  - Sequencing in the lab
+- Transcriptomics / RNA
+  - Types of RNA
+  - Measuring expression levels
+
+# Central Dogma
+
+## Central Dogma
+
+## Transcription
+
+## Translation
+
+## "Canonical" Gene Model
+
+# Genomics / DNA
+
+## Genomic Sequences
+
+## Genomic Assemblies
+
+## Reference Sequences and Assemblies
+
+## Data Sources / Sequence Naming
+
+## Genomic Features
+
+## Data Sources
+
+## File Formats
+
+## Bioinformatics Algorithms
+
+## Sequencing in the Lab
+
+# Transcriptomics / RNA
+
+## RNA / Transcriptomics
+
+## Transcriptomics in the Lab
+
+## Measuring Expression Levels
+
+# Next Session {visibility="hidden"}
+
+## [Next Session](../session2b/){target="_blank"} Preview {.smaller}
+
+* Proteomics / Proteins
+  * Translation and Post-translational Modifications
+  * Protein Structure
+  * Expression and Localization
+  * Interaction and Function
+* Metabolomics / Metabolites
+* Variants / Mutations
+  * Types of Variants
+  * Variant Calling / Algorithms
+  * Consequence Prediction
+

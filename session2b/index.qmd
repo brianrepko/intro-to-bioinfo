@@ -1,0 +1,78 @@
+---
+title: "Introduction to Bioinformatics"
+subtitle: "Proteomics, Metabolomics, and Variants"
+format: revealjs
+---
+
+# Overview and Agenda {visibility="hidden"}
+
+## [Series](../){target="_blank"} Overview
+
+- Five 1 hour sessions
+  - Very high level - just meant to organize concepts
+- Part 1 - Biology "down to the cell"
+- Part 2 - -omics, Molecular / Structural biology
+  - 2a - Genomics / DNA and Transcriptomics / RNA
+  - <span style="color: red;">2b - Proteomics, Metabolomics, and Variants</span>
+  - 2c - Regulation, RNAi, and Epigenetics
+- Part 3 - Biomedical Research
+
+## Agenda {.smaller}
+
+* Proteomics / Proteins
+  * Translation and Post-translational Modifications
+  * Protein Structure
+  * Expression and Localization
+  * Interaction and Function
+* Metabolomics / Metabolites
+* Variants / Mutations
+  * Types of Variants
+  * Variant Calling / Algorithms
+  * Consequence Prediction
+
+# Proteomics {visibility="hidden"}
+
+## Proteomics
+
+## Translation
+
+## Post-translational Modifications
+
+## Structure
+
+## Expression and Localization
+
+## Expression and Localization
+
+## Interaction and Function
+
+# Metabolomics {visibility="hidden"}
+
+## Metabolomics
+
+## Metabolomics Technologies / Databases
+
+# Variants {visibility="hidden"}
+
+## Variants
+
+## Types of Variants
+
+## Variant Calling / Algorithms
+
+## Consequence Prediction
+
+# Next Session {visibility="hidden"}
+
+## [Next Session](../session2c/){target="_blank"} Preview {.smaller}
+
+* Regulation / RNAi
+  * Enhancers, Silencers, and Transcription Factors
+  * RNAi - miRNA and siRNA
+  * Knockdowns and Knockouts - shRNA and CRISPR
+* Epigenetics
+  * DNA methylation
+  * Histone modification
+* Metagenomics
+* Phylogenomics
+

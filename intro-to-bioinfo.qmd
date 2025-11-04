@@ -1,0 +1,94 @@
+---
+title: "Introduction to Bioinformatics"
+subtitle: "A five-part overview"
+---
+
+# Overview
+
+This set of presentations was originally part of an effort, in 2016, to present a very high-level overview of biology and bioinformatics to professional software developers.
+I'm recreating this, in 2025, as a quarto website that contains the quarto presentations (and posting on Github with auto-deployment).
+
+# The Series
+
+The series is organized into three parts with multiple sessions in the second part.
+Each session was planned to be about a one-hour presentation.
+
+::: {.callout-note}
+At some point, I may record myself going through these - but for now, please reference the notes on the quarto presentations.
+:::
+
+## Part 1 - Biology "down to the cell"
+
+This [session](./session1/){ target="_blank" } discusses what is biology and bioinformatics and moves us from "all of life" down to the cell level.
+
+Topics include:
+
+* What is Bioinformatics?
+* Areas of Biology
+* Zoology / Species / Model Organisms
+* Anatomy / Tissues / Cells
+* Cell Biology
+* Cell Development / Differentiation
+
+## Part 2 - "-omics", Molecular / Structural biology
+
+This is the main part and is divided into three sessions.
+The goal is to cover the biology related to various "-omics" topics.
+
+### Session 2a - Genomics / DNA and Transcriptomics / RNA
+
+This [session](./session2a/){ target="_blank" } includes:
+
+* Central Dogma
+  * Transcription / Translation
+  * Canonical Gene Model
+* Genomics / DNA
+  * Sequences, Assemblies, Features and Feature Sets
+  * Databases / File Formats
+  * Bioinformatics Algorithms
+  * Sequencing in the lab
+* Transcriptomics / RNA
+  * Types of RNA
+  * Measuring expression levels
+
+### Session 2b - Proteomics, Metabolomics, and Variants
+
+This [session](./session2b/){ target="_blank" } includes:
+
+* Proteomics / Proteins
+  * Translation and Post-translational Modifications
+  * Protein Structure
+  * Expression and Localization
+  * Interaction and Function
+* Metabolomics / Metabolites
+* Variants / Mutations
+  * Types of Variants
+  * Variant Calling / Algorithms
+  * Consequence Prediction
+
+### Session 2c - Regulation, RNAi, and Epigenetics
+
+This [session](./session2c/){ target="_blank } includes:
+
+* Regulation / RNAi
+  * Enhancers, Silencers, and Transcription Factors
+  * RNAi - miRNA and siRNA
+  * Knockdowns and Knockouts - shRNA and CRISPR
+* Epigenetics
+  * DNA methylation
+  * Histone modification
+* Metagenomics
+* Phylogenomics
+
+## Part 3 - Biomedical Research
+
+This [session](./session3/){ target="_blank"} discusses various aspects of Biomedical Research, Drug Discovery and Drug Development.
+
+Topics include:
+
+* Drug Discovery Process
+* Disease and Epidemiology
+* Target ID and Validation
+* In-vitro and In-vivo Studies
+* Therpeutics Development
+* Translational and Clinical Studies

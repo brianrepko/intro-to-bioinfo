@@ -1,0 +1,92 @@
+---
+title: "Introduction to Bioinformatics"
+subtitle: "Biology \"down to the cell\""
+format: revealjs
+---
+
+# Overview and Agenda {visibility="hidden"}
+
+## [Series](../){ target="_blank"} Overview
+
+- Five 1 hour sessions
+  - Very high level - just meant to organize concepts
+
+- <span style="color: red;">Part 1 - Biology "down to the cell"</span>
+- Part 2 - -omics, Molecular / Structural biology
+  - 2a - Genomics / DNA and Transcriptomics / RNA
+  - 2b - Proteomics, Metabolomics, and Variants
+  - 2c - Regulation, RNAi, and Epigenetics
+- Part 3 - Biomedical Research
+
+## Agenda
+
+- What is Bioinformatics?
+- Areas of Biology
+- Zoology / Species / Model Organisms
+- Anatomy / Tissue / Cells
+- Cell Biology
+- Cell Development / Differentiation
+
+# Everything above cells {visibility="hidden"}
+
+## What is Bioinformatics?
+
+- bioinformatics
+  - **doing** computer science / software engineering
+  - **using** your knowledge of biology
+- computational biology
+  - **doing** biology
+  - **using** your knowledge of computational techniques
+  
+## Areas of Biology {.smaller}
+
+- Species level
+  - zoology, botony, evolutionary biology, microbiology (bacteriology, virology)
+- Organism level
+  - anatomy, physiology, immunology / kinesiology / hematology / neurobiology
+- Tissue / Cell level
+  - histology, cell biology, developmental biology, embryology / gerontology
+- DNA / RNA / Protein level
+  - genetics, genomics, transcriptomics, proteomics, metabolomics, epigenetics, metagenomics, phylogenomics, population genetics
+- Molecular level
+  - molecular biology, structural biology, biochemistry, biophysics
+- Disease / Therapeutics level
+  - biomedical research, epidemiology, pathology, pharmacology
+  
+## Species
+
+## Model Organisms
+
+## Anatomy / Physiology
+
+## Tissues / Histology
+
+# Everything cell-based {visibility="hidden"}
+
+## Cells
+
+## Cell image
+
+## Chromosome Structure
+
+## Cellular Processes
+
+## CP image
+
+## Cell Types / Differentiation
+
+# Next {visibility="hidden"}
+
+## [Next Session](../session2a/){target="_blank"} Preview {.smaller}
+
+- Central Dogma
+  - Transcription / Translation
+  - Canonical Gene Model
+- Genomics / DNA
+  - Sequences, Assemblies, Features and Feature Sets
+  - Databases / File Formats
+  - Bioinformatics Algorithms
+  - Sequencing in the lab
+- Transcriptomics / RNA
+  - Types of RNA
+  - Measuring expression levels
