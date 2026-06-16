@@ -90,5 +90,5 @@ Topics include:
 * Disease and Epidemiology
 * Target ID and Validation
 * In-vitro and In-vivo Studies
-* Therpeutics Development
+* Therapeutics Development
 * Translational and Clinical Studies

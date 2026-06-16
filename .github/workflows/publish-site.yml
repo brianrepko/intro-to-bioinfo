@@ -1,0 +1,39 @@
+name: publish-site
+
+on:
+  push:
+    branches: main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Setup quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install quarto extensions (as needed)
+        run: |
+          # quarto add EmilHvitfeldt/quarto-roughnotation --no-prompt
+          # quarto add EmilHvitfeldt/quarto-timeline --no-prompt
+
+      - name: Install R packages (as needed)
+        run: |
+          # Example for R dependencies
+          # R -e "install.packages('renv')"
+          # R -e "renv::restore()"
+
+      - name: Render website
+        run: quarto render
+
+      - name: Publish website
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages

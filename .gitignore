@@ -2,7 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
-/_site/
+/_output/
 /.quarto/
 **/*.quarto_ipynb
 **/.DS_Store
