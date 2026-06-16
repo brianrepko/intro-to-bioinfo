@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://brianrepko.github.io/intro-to-bioinfo/intro-to-bioinfo.html</loc>
-    <lastmod>2026-06-16T16:23:39.684Z</lastmod>
-  </url>
-  <url>
-    <loc>https://brianrepko.github.io/intro-to-bioinfo/session1/index.html</loc>
-    <lastmod>2026-06-16T16:23:39.666Z</lastmod>
-  </url>
-  <url>
-    <loc>https://brianrepko.github.io/intro-to-bioinfo/session2b/index.html</loc>
-    <lastmod>2026-06-16T16:23:39.666Z</lastmod>
-  </url>
-  <url>
     <loc>https://brianrepko.github.io/intro-to-bioinfo/session3/index.html</loc>
-    <lastmod>2026-06-16T16:23:39.667Z</lastmod>
-  </url>
-  <url>
-    <loc>https://brianrepko.github.io/intro-to-bioinfo/session2c/index.html</loc>
-    <lastmod>2026-06-16T16:23:39.667Z</lastmod>
+    <lastmod>2026-06-16T16:28:28.569Z</lastmod>
   </url>
   <url>
     <loc>https://brianrepko.github.io/intro-to-bioinfo/session2a/index.html</loc>
-    <lastmod>2026-06-16T16:23:39.666Z</lastmod>
+    <lastmod>2026-06-16T16:28:28.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://brianrepko.github.io/intro-to-bioinfo/session1/index.html</loc>
+    <lastmod>2026-06-16T16:28:28.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://brianrepko.github.io/intro-to-bioinfo/session2c/index.html</loc>
+    <lastmod>2026-06-16T16:28:28.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://brianrepko.github.io/intro-to-bioinfo/session2b/index.html</loc>
+    <lastmod>2026-06-16T16:28:28.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://brianrepko.github.io/intro-to-bioinfo/intro-to-bioinfo.html</loc>
+    <lastmod>2026-06-16T16:28:28.568Z</lastmod>
   </url>
 </urlset>
