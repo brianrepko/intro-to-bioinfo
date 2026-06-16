@@ -1,0 +1,555 @@
+[
+  {
+    "objectID": "intro-to-bioinfo.html",
+    "href": "intro-to-bioinfo.html",
+    "title": "Introduction to Bioinformatics",
+    "section": "",
+    "text": "This set of presentations was originally part of an effort, in 2016, to present a very high-level overview of biology and bioinformatics to professional software developers. I’m recreating this, in 2025, as a quarto website that contains the quarto presentations (and posting on Github with auto-deployment)."
+  },
+  {
+    "objectID": "intro-to-bioinfo.html#part-1---biology-down-to-the-cell",
+    "href": "intro-to-bioinfo.html#part-1---biology-down-to-the-cell",
+    "title": "Introduction to Bioinformatics",
+    "section": "Part 1 - Biology “down to the cell”",
+    "text": "Part 1 - Biology “down to the cell”\nThis session discusses what is biology and bioinformatics and moves us from “all of life” down to the cell level.\nTopics include:\n\nWhat is Bioinformatics?\nAreas of Biology\nZoology / Species / Model Organisms\nAnatomy / Tissues / Cells\nCell Biology\nCell Development / Differentiation"
+  },
+  {
+    "objectID": "intro-to-bioinfo.html#part-2----omics-molecular-structural-biology",
+    "href": "intro-to-bioinfo.html#part-2----omics-molecular-structural-biology",
+    "title": "Introduction to Bioinformatics",
+    "section": "Part 2 - “-omics”, Molecular / Structural biology",
+    "text": "Part 2 - “-omics”, Molecular / Structural biology\nThis is the main part and is divided into three sessions. The goal is to cover the biology related to various “-omics” topics.\n\nSession 2a - Genomics / DNA and Transcriptomics / RNA\nThis session includes:\n\nCentral Dogma\n\nTranscription / Translation\nCanonical Gene Model\n\nGenomics / DNA\n\nSequences, Assemblies, Features and Feature Sets\nDatabases / File Formats\nBioinformatics Algorithms\nSequencing in the lab\n\nTranscriptomics / RNA\n\nTypes of RNA\nMeasuring expression levels\n\n\n\n\nSession 2b - Proteomics, Metabolomics, and Variants\nThis session includes:\n\nProteomics / Proteins\n\nTranslation and Post-translational Modifications\nProtein Structure\nExpression and Localization\nInteraction and Function\n\nMetabolomics / Metabolites\nVariants / Mutations\n\nTypes of Variants\nVariant Calling / Algorithms\nConsequence Prediction\n\n\n\n\nSession 2c - Regulation, RNAi, and Epigenetics\nThis session includes:\n\nRegulation / RNAi\n\nEnhancers, Silencers, and Transcription Factors\nRNAi - miRNA and siRNA\nKnockdowns and Knockouts - shRNA and CRISPR\n\nEpigenetics\n\nDNA methylation\nHistone modification\n\nMetagenomics\nPhylogenomics"
+  },
+  {
+    "objectID": "intro-to-bioinfo.html#part-3---biomedical-research",
+    "href": "intro-to-bioinfo.html#part-3---biomedical-research",
+    "title": "Introduction to Bioinformatics",
+    "section": "Part 3 - Biomedical Research",
+    "text": "Part 3 - Biomedical Research\nThis session discusses various aspects of Biomedical Research, Drug Discovery and Drug Development.\nTopics include:\n\nDrug Discovery Process\nDisease and Epidemiology\nTarget ID and Validation\nIn-vitro and In-vivo Studies\nTherapeutics Development\nTranslational and Clinical Studies"
+  },
+  {
+    "objectID": "session1/index.html#series-overview",
+    "href": "session1/index.html#series-overview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Series Overview",
+    "text": "Series Overview\n\nFive 1 hour sessions\n\nVery high level - just meant to organize concepts\n\nPart 1 - Biology “down to the cell”\nPart 2 - -omics, Molecular / Structural biology\n\n2a - Genomics / DNA and Transcriptomics / RNA\n2b - Proteomics, Metabolomics, and Variants\n2c - Regulation, RNAi, and Epigenetics\n\nPart 3 - Biomedical Research"
+  },
+  {
+    "objectID": "session1/index.html#agenda",
+    "href": "session1/index.html#agenda",
+    "title": "Introduction to Bioinformatics",
+    "section": "Agenda",
+    "text": "Agenda\n\nWhat is Bioinformatics?\nAreas of Biology\nZoology / Species / Model Organisms\nAnatomy / Tissue / Cells\nCell Biology\nCell Development / Differentiation"
+  },
+  {
+    "objectID": "session1/index.html#what-is-bioinformatics",
+    "href": "session1/index.html#what-is-bioinformatics",
+    "title": "Introduction to Bioinformatics",
+    "section": "What is Bioinformatics?",
+    "text": "What is Bioinformatics?\n\nbioinformatics\n\ndoing computer science / software engineering\nusing your knowledge of biology\n\ncomputational biology\n\ndoing biology\nusing your knowledge of computational techniques"
+  },
+  {
+    "objectID": "session1/index.html#areas-of-biology",
+    "href": "session1/index.html#areas-of-biology",
+    "title": "Introduction to Bioinformatics",
+    "section": "Areas of Biology",
+    "text": "Areas of Biology\n\nSpecies level\n\nzoology, botony, evolutionary biology, microbiology (bacteriology, virology)\n\nOrganism level\n\nanatomy, physiology, immunology / kinesiology / hematology / neurobiology\n\nTissue / Cell level\n\nhistology, cell biology, developmental biology, embryology / gerontology\n\nDNA / RNA / Protein level\n\ngenetics, genomics, transcriptomics, proteomics, metabolomics, epigenetics, metagenomics, phylogenomics, population genetics\n\nMolecular level\n\nmolecular biology, structural biology, biochemistry, biophysics\n\nDisease / Therapeutics level\n\nbiomedical research, epidemiology, pathology, pharmacology"
+  },
+  {
+    "objectID": "session1/index.html#species",
+    "href": "session1/index.html#species",
+    "title": "Introduction to Bioinformatics",
+    "section": "Species",
+    "text": "Species"
+  },
+  {
+    "objectID": "session1/index.html#model-organisms",
+    "href": "session1/index.html#model-organisms",
+    "title": "Introduction to Bioinformatics",
+    "section": "Model Organisms",
+    "text": "Model Organisms"
+  },
+  {
+    "objectID": "session1/index.html#anatomy-physiology",
+    "href": "session1/index.html#anatomy-physiology",
+    "title": "Introduction to Bioinformatics",
+    "section": "Anatomy / Physiology",
+    "text": "Anatomy / Physiology"
+  },
+  {
+    "objectID": "session1/index.html#tissues-histology",
+    "href": "session1/index.html#tissues-histology",
+    "title": "Introduction to Bioinformatics",
+    "section": "Tissues / Histology",
+    "text": "Tissues / Histology"
+  },
+  {
+    "objectID": "session1/index.html#cells",
+    "href": "session1/index.html#cells",
+    "title": "Introduction to Bioinformatics",
+    "section": "Cells",
+    "text": "Cells"
+  },
+  {
+    "objectID": "session1/index.html#cell-image",
+    "href": "session1/index.html#cell-image",
+    "title": "Introduction to Bioinformatics",
+    "section": "Cell image",
+    "text": "Cell image"
+  },
+  {
+    "objectID": "session1/index.html#chromosome-structure",
+    "href": "session1/index.html#chromosome-structure",
+    "title": "Introduction to Bioinformatics",
+    "section": "Chromosome Structure",
+    "text": "Chromosome Structure"
+  },
+  {
+    "objectID": "session1/index.html#cellular-processes",
+    "href": "session1/index.html#cellular-processes",
+    "title": "Introduction to Bioinformatics",
+    "section": "Cellular Processes",
+    "text": "Cellular Processes"
+  },
+  {
+    "objectID": "session1/index.html#cp-image",
+    "href": "session1/index.html#cp-image",
+    "title": "Introduction to Bioinformatics",
+    "section": "CP image",
+    "text": "CP image"
+  },
+  {
+    "objectID": "session1/index.html#cell-types-differentiation",
+    "href": "session1/index.html#cell-types-differentiation",
+    "title": "Introduction to Bioinformatics",
+    "section": "Cell Types / Differentiation",
+    "text": "Cell Types / Differentiation"
+  },
+  {
+    "objectID": "session1/index.html#next-session-preview",
+    "href": "session1/index.html#next-session-preview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Next Session Preview",
+    "text": "Next Session Preview\n\nCentral Dogma\n\nTranscription / Translation\nCanonical Gene Model\n\nGenomics / DNA\n\nSequences, Assemblies, Features and Feature Sets\nDatabases / File Formats\nBioinformatics Algorithms\nSequencing in the lab\n\nTranscriptomics / RNA\n\nTypes of RNA\nMeasuring expression levels"
+  },
+  {
+    "objectID": "session2b/index.html#series-overview",
+    "href": "session2b/index.html#series-overview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Series Overview",
+    "text": "Series Overview\n\nFive 1 hour sessions\n\nVery high level - just meant to organize concepts\n\nPart 1 - Biology “down to the cell”\nPart 2 - -omics, Molecular / Structural biology\n\n2a - Genomics / DNA and Transcriptomics / RNA\n2b - Proteomics, Metabolomics, and Variants\n2c - Regulation, RNAi, and Epigenetics\n\nPart 3 - Biomedical Research"
+  },
+  {
+    "objectID": "session2b/index.html#agenda",
+    "href": "session2b/index.html#agenda",
+    "title": "Introduction to Bioinformatics",
+    "section": "Agenda",
+    "text": "Agenda\n\nProteomics / Proteins\n\nTranslation and Post-translational Modifications\nProtein Structure\nExpression and Localization\nInteraction and Function\n\nMetabolomics / Metabolites\nVariants / Mutations\n\nTypes of Variants\nVariant Calling / Algorithms\nConsequence Prediction"
+  },
+  {
+    "objectID": "session2b/index.html#proteomics-1",
+    "href": "session2b/index.html#proteomics-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Proteomics",
+    "text": "Proteomics"
+  },
+  {
+    "objectID": "session2b/index.html#translation",
+    "href": "session2b/index.html#translation",
+    "title": "Introduction to Bioinformatics",
+    "section": "Translation",
+    "text": "Translation"
+  },
+  {
+    "objectID": "session2b/index.html#post-translational-modifications",
+    "href": "session2b/index.html#post-translational-modifications",
+    "title": "Introduction to Bioinformatics",
+    "section": "Post-translational Modifications",
+    "text": "Post-translational Modifications"
+  },
+  {
+    "objectID": "session2b/index.html#structure",
+    "href": "session2b/index.html#structure",
+    "title": "Introduction to Bioinformatics",
+    "section": "Structure",
+    "text": "Structure"
+  },
+  {
+    "objectID": "session2b/index.html#expression-and-localization",
+    "href": "session2b/index.html#expression-and-localization",
+    "title": "Introduction to Bioinformatics",
+    "section": "Expression and Localization",
+    "text": "Expression and Localization"
+  },
+  {
+    "objectID": "session2b/index.html#expression-and-localization-1",
+    "href": "session2b/index.html#expression-and-localization-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Expression and Localization",
+    "text": "Expression and Localization"
+  },
+  {
+    "objectID": "session2b/index.html#interaction-and-function",
+    "href": "session2b/index.html#interaction-and-function",
+    "title": "Introduction to Bioinformatics",
+    "section": "Interaction and Function",
+    "text": "Interaction and Function"
+  },
+  {
+    "objectID": "session2b/index.html#metabolomics-1",
+    "href": "session2b/index.html#metabolomics-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Metabolomics",
+    "text": "Metabolomics"
+  },
+  {
+    "objectID": "session2b/index.html#metabolomics-technologies-databases",
+    "href": "session2b/index.html#metabolomics-technologies-databases",
+    "title": "Introduction to Bioinformatics",
+    "section": "Metabolomics Technologies / Databases",
+    "text": "Metabolomics Technologies / Databases"
+  },
+  {
+    "objectID": "session2b/index.html#variants-1",
+    "href": "session2b/index.html#variants-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Variants",
+    "text": "Variants"
+  },
+  {
+    "objectID": "session2b/index.html#types-of-variants",
+    "href": "session2b/index.html#types-of-variants",
+    "title": "Introduction to Bioinformatics",
+    "section": "Types of Variants",
+    "text": "Types of Variants"
+  },
+  {
+    "objectID": "session2b/index.html#variant-calling-algorithms",
+    "href": "session2b/index.html#variant-calling-algorithms",
+    "title": "Introduction to Bioinformatics",
+    "section": "Variant Calling / Algorithms",
+    "text": "Variant Calling / Algorithms"
+  },
+  {
+    "objectID": "session2b/index.html#consequence-prediction",
+    "href": "session2b/index.html#consequence-prediction",
+    "title": "Introduction to Bioinformatics",
+    "section": "Consequence Prediction",
+    "text": "Consequence Prediction"
+  },
+  {
+    "objectID": "session2b/index.html#next-session-preview",
+    "href": "session2b/index.html#next-session-preview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Next Session Preview",
+    "text": "Next Session Preview\n\nRegulation / RNAi\n\nEnhancers, Silencers, and Transcription Factors\nRNAi - miRNA and siRNA\nKnockdowns and Knockouts - shRNA and CRISPR\n\nEpigenetics\n\nDNA methylation\nHistone modification\n\nMetagenomics\nPhylogenomics"
+  },
+  {
+    "objectID": "session3/index.html#series-overview",
+    "href": "session3/index.html#series-overview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Series Overview",
+    "text": "Series Overview\n\nFive 1 hour sessions\n\nVery high level - just meant to organize concepts\n\nPart 1 - Biology “down to the cell”\nPart 2 - -omics, Molecular / Structural biology\n\n2a - Genomics / DNA and Transcriptomics / RNA\n2b - Proteomics, Metabolomics, and Variants\n2c - Regulation, RNAi, and Epigenetics\n\nPart 3 - Biomedical Research"
+  },
+  {
+    "objectID": "session3/index.html#agenda",
+    "href": "session3/index.html#agenda",
+    "title": "Introduction to Bioinformatics",
+    "section": "Agenda",
+    "text": "Agenda\n\nDrug Discovery Process\nDisease and Epidemiology\nTarget ID and Validation\nIn-vitro and In-vivo Studies\nTherapeutics Development\nTranslational and Clinical Studies"
+  },
+  {
+    "objectID": "session3/index.html#drug-discovery-and-development",
+    "href": "session3/index.html#drug-discovery-and-development",
+    "title": "Introduction to Bioinformatics",
+    "section": "Drug Discovery and Development",
+    "text": "Drug Discovery and Development"
+  },
+  {
+    "objectID": "session3/index.html#disease-and-epidemiology",
+    "href": "session3/index.html#disease-and-epidemiology",
+    "title": "Introduction to Bioinformatics",
+    "section": "Disease and Epidemiology",
+    "text": "Disease and Epidemiology"
+  },
+  {
+    "objectID": "session3/index.html#target-id-and-validation",
+    "href": "session3/index.html#target-id-and-validation",
+    "title": "Introduction to Bioinformatics",
+    "section": "Target ID and Validation",
+    "text": "Target ID and Validation"
+  },
+  {
+    "objectID": "session3/index.html#in-vitro-and-in-vivo-studies",
+    "href": "session3/index.html#in-vitro-and-in-vivo-studies",
+    "title": "Introduction to Bioinformatics",
+    "section": "In-vitro and In-vivo Studies",
+    "text": "In-vitro and In-vivo Studies"
+  },
+  {
+    "objectID": "session3/index.html#therapeutics-development",
+    "href": "session3/index.html#therapeutics-development",
+    "title": "Introduction to Bioinformatics",
+    "section": "Therapeutics Development",
+    "text": "Therapeutics Development"
+  },
+  {
+    "objectID": "session3/index.html#translational-and-clinical-studies",
+    "href": "session3/index.html#translational-and-clinical-studies",
+    "title": "Introduction to Bioinformatics",
+    "section": "Translational and Clinical Studies",
+    "text": "Translational and Clinical Studies"
+  },
+  {
+    "objectID": "session3/index.html#thank-you",
+    "href": "session3/index.html#thank-you",
+    "title": "Introduction to Bioinformatics",
+    "section": "Thank You!",
+    "text": "Thank You!"
+  },
+  {
+    "objectID": "session2c/index.html#series-overview",
+    "href": "session2c/index.html#series-overview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Series Overview",
+    "text": "Series Overview\n\nFive 1 hour sessions\n\nVery high level - just meant to organize concepts\n\nPart 1 - Biology “down to the cell”\nPart 2 - -omics, Molecular / Structural biology\n\n2a - Genomics / DNA and Transcriptomics / RNA\n2b - Proteomics, Metabolomics, and Variants\n2c - Regulation, RNAi, and Epigenetics\n\nPart 3 - Biomedical Research"
+  },
+  {
+    "objectID": "session2c/index.html#agenda",
+    "href": "session2c/index.html#agenda",
+    "title": "Introduction to Bioinformatics",
+    "section": "Agenda",
+    "text": "Agenda\n\nRegulation / RNAi\n\nEnhancers, Silencers, and Transcription Factors\nRNAi - miRNA and siRNA\nKnockdowns and Knockouts - shRNA and CRISPR\n\nEpigenetics\n\nDNA methylation\nHistone modification\n\nMetagenomics\nPhylogenomics"
+  },
+  {
+    "objectID": "session2c/index.html#terms",
+    "href": "session2c/index.html#terms",
+    "title": "Introduction to Bioinformatics",
+    "section": "Terms",
+    "text": "Terms"
+  },
+  {
+    "objectID": "session2c/index.html#regulation-of-transcription",
+    "href": "session2c/index.html#regulation-of-transcription",
+    "title": "Introduction to Bioinformatics",
+    "section": "Regulation of Transcription",
+    "text": "Regulation of Transcription"
+  },
+  {
+    "objectID": "session2c/index.html#rna-interference-rnai",
+    "href": "session2c/index.html#rna-interference-rnai",
+    "title": "Introduction to Bioinformatics",
+    "section": "RNA Interference (RNAi)",
+    "text": "RNA Interference (RNAi)"
+  },
+  {
+    "objectID": "session2c/index.html#mirna-and-sirna",
+    "href": "session2c/index.html#mirna-and-sirna",
+    "title": "Introduction to Bioinformatics",
+    "section": "miRNA and siRNA",
+    "text": "miRNA and siRNA"
+  },
+  {
+    "objectID": "session2c/index.html#knockdowns-and-knockouts",
+    "href": "session2c/index.html#knockdowns-and-knockouts",
+    "title": "Introduction to Bioinformatics",
+    "section": "Knockdowns and Knockouts",
+    "text": "Knockdowns and Knockouts"
+  },
+  {
+    "objectID": "session2c/index.html#epigenetics-1",
+    "href": "session2c/index.html#epigenetics-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Epigenetics",
+    "text": "Epigenetics"
+  },
+  {
+    "objectID": "session2c/index.html#dna-methylation",
+    "href": "session2c/index.html#dna-methylation",
+    "title": "Introduction to Bioinformatics",
+    "section": "DNA methylation",
+    "text": "DNA methylation"
+  },
+  {
+    "objectID": "session2c/index.html#histone-modifications",
+    "href": "session2c/index.html#histone-modifications",
+    "title": "Introduction to Bioinformatics",
+    "section": "Histone Modifications",
+    "text": "Histone Modifications"
+  },
+  {
+    "objectID": "session2c/index.html#histone-code",
+    "href": "session2c/index.html#histone-code",
+    "title": "Introduction to Bioinformatics",
+    "section": "Histone Code",
+    "text": "Histone Code"
+  },
+  {
+    "objectID": "session2c/index.html#heritability",
+    "href": "session2c/index.html#heritability",
+    "title": "Introduction to Bioinformatics",
+    "section": "Heritability",
+    "text": "Heritability"
+  },
+  {
+    "objectID": "session2c/index.html#databases-resources",
+    "href": "session2c/index.html#databases-resources",
+    "title": "Introduction to Bioinformatics",
+    "section": "Databases / Resources",
+    "text": "Databases / Resources"
+  },
+  {
+    "objectID": "session2c/index.html#metagenomics",
+    "href": "session2c/index.html#metagenomics",
+    "title": "Introduction to Bioinformatics",
+    "section": "Metagenomics",
+    "text": "Metagenomics"
+  },
+  {
+    "objectID": "session2c/index.html#phylogenomics",
+    "href": "session2c/index.html#phylogenomics",
+    "title": "Introduction to Bioinformatics",
+    "section": "Phylogenomics",
+    "text": "Phylogenomics"
+  },
+  {
+    "objectID": "session2c/index.html#next-session-preview",
+    "href": "session2c/index.html#next-session-preview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Next Session Preview",
+    "text": "Next Session Preview\n\nDrug Discovery Process\nDisease and Epidemiology\nTarget ID and Validation\nIn-vitro and In-vivo Studies\nTherpeutics Development\nTranslational and Clinical Studies"
+  },
+  {
+    "objectID": "session2a/index.html#series-overview",
+    "href": "session2a/index.html#series-overview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Series Overview",
+    "text": "Series Overview\n\nFive 1 hour sessions\n\nVery high level - just meant to organize concepts\n\nPart 1 - Biology “down to the cell”\nPart 2 - -omics, Molecular / Structural biology\n\n2a - Genomics / DNA and Transcriptomics / RNA\n2b - Proteomics, Metabolomics, and Variants\n2c - Regulation, RNAi, and Epigenetics\n\nPart 3 - Biomedical Research"
+  },
+  {
+    "objectID": "session2a/index.html#agenda",
+    "href": "session2a/index.html#agenda",
+    "title": "Introduction to Bioinformatics",
+    "section": "Agenda",
+    "text": "Agenda\n\nCentral Dogma\n\nTranscription / Translation\nCanonical Gene Model\n\nGenomics / DNA\n\nSequences, Assemblies, Features and Feature Sets\nDatabases / File Formats\nBioinformatics Algorithms\nSequencing in the lab\n\nTranscriptomics / RNA\n\nTypes of RNA\nMeasuring expression levels"
+  },
+  {
+    "objectID": "session2a/index.html#central-dogma-1",
+    "href": "session2a/index.html#central-dogma-1",
+    "title": "Introduction to Bioinformatics",
+    "section": "Central Dogma",
+    "text": "Central Dogma"
+  },
+  {
+    "objectID": "session2a/index.html#transcription",
+    "href": "session2a/index.html#transcription",
+    "title": "Introduction to Bioinformatics",
+    "section": "Transcription",
+    "text": "Transcription"
+  },
+  {
+    "objectID": "session2a/index.html#translation",
+    "href": "session2a/index.html#translation",
+    "title": "Introduction to Bioinformatics",
+    "section": "Translation",
+    "text": "Translation"
+  },
+  {
+    "objectID": "session2a/index.html#canonical-gene-model",
+    "href": "session2a/index.html#canonical-gene-model",
+    "title": "Introduction to Bioinformatics",
+    "section": "“Canonical” Gene Model",
+    "text": "“Canonical” Gene Model"
+  },
+  {
+    "objectID": "session2a/index.html#genomic-sequences",
+    "href": "session2a/index.html#genomic-sequences",
+    "title": "Introduction to Bioinformatics",
+    "section": "Genomic Sequences",
+    "text": "Genomic Sequences"
+  },
+  {
+    "objectID": "session2a/index.html#genomic-assemblies",
+    "href": "session2a/index.html#genomic-assemblies",
+    "title": "Introduction to Bioinformatics",
+    "section": "Genomic Assemblies",
+    "text": "Genomic Assemblies"
+  },
+  {
+    "objectID": "session2a/index.html#reference-sequences-and-assemblies",
+    "href": "session2a/index.html#reference-sequences-and-assemblies",
+    "title": "Introduction to Bioinformatics",
+    "section": "Reference Sequences and Assemblies",
+    "text": "Reference Sequences and Assemblies"
+  },
+  {
+    "objectID": "session2a/index.html#data-sources-sequence-naming",
+    "href": "session2a/index.html#data-sources-sequence-naming",
+    "title": "Introduction to Bioinformatics",
+    "section": "Data Sources / Sequence Naming",
+    "text": "Data Sources / Sequence Naming"
+  },
+  {
+    "objectID": "session2a/index.html#genomic-features",
+    "href": "session2a/index.html#genomic-features",
+    "title": "Introduction to Bioinformatics",
+    "section": "Genomic Features",
+    "text": "Genomic Features"
+  },
+  {
+    "objectID": "session2a/index.html#data-sources",
+    "href": "session2a/index.html#data-sources",
+    "title": "Introduction to Bioinformatics",
+    "section": "Data Sources",
+    "text": "Data Sources"
+  },
+  {
+    "objectID": "session2a/index.html#file-formats",
+    "href": "session2a/index.html#file-formats",
+    "title": "Introduction to Bioinformatics",
+    "section": "File Formats",
+    "text": "File Formats"
+  },
+  {
+    "objectID": "session2a/index.html#bioinformatics-algorithms",
+    "href": "session2a/index.html#bioinformatics-algorithms",
+    "title": "Introduction to Bioinformatics",
+    "section": "Bioinformatics Algorithms",
+    "text": "Bioinformatics Algorithms"
+  },
+  {
+    "objectID": "session2a/index.html#sequencing-in-the-lab",
+    "href": "session2a/index.html#sequencing-in-the-lab",
+    "title": "Introduction to Bioinformatics",
+    "section": "Sequencing in the Lab",
+    "text": "Sequencing in the Lab"
+  },
+  {
+    "objectID": "session2a/index.html#rna-transcriptomics",
+    "href": "session2a/index.html#rna-transcriptomics",
+    "title": "Introduction to Bioinformatics",
+    "section": "RNA / Transcriptomics",
+    "text": "RNA / Transcriptomics"
+  },
+  {
+    "objectID": "session2a/index.html#transcriptomics-in-the-lab",
+    "href": "session2a/index.html#transcriptomics-in-the-lab",
+    "title": "Introduction to Bioinformatics",
+    "section": "Transcriptomics in the Lab",
+    "text": "Transcriptomics in the Lab"
+  },
+  {
+    "objectID": "session2a/index.html#measuring-expression-levels",
+    "href": "session2a/index.html#measuring-expression-levels",
+    "title": "Introduction to Bioinformatics",
+    "section": "Measuring Expression Levels",
+    "text": "Measuring Expression Levels"
+  },
+  {
+    "objectID": "session2a/index.html#next-session-preview",
+    "href": "session2a/index.html#next-session-preview",
+    "title": "Introduction to Bioinformatics",
+    "section": "Next Session Preview",
+    "text": "Next Session Preview\n\nProteomics / Proteins\n\nTranslation and Post-translational Modifications\nProtein Structure\nExpression and Localization\nInteraction and Function\n\nMetabolomics / Metabolites\nVariants / Mutations\n\nTypes of Variants\nVariant Calling / Algorithms\nConsequence Prediction"
+  }
+]
